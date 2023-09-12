@@ -128,7 +128,7 @@ while request == True:
     else:
         request = False
 
-print("Goodbuy")
+print("Goodbye")
 
 
 #TODO-1: Create a function called 'encrypt' that takes the 'text' and 'shift' as inputs.
