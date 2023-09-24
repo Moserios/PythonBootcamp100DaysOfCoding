@@ -14,21 +14,21 @@
 
 ########### convert grades -> results ##############
 
-student_scores = {
-    "Harry": 81,
-    "Ron": 78,
-    "Hermione": 99,
-    "Draco": 74,
-    "Neville": 62,
-}
+# student_scores = {
+#    "Harry": 81,
+#    "Ron": 78,
+#    "Hermione": 99,
+#    "Draco": 74,
+#    "Neville": 62,
+#}
 # 🚨 Don't change the code above 👆
-Harry = student_scores["Harry"]
-
-for student in student_scores:
-    print(student)
-
-print("----")
-print(student_scores['Harry'])
+#Harry = student_scores["Harry"]
+#
+#for student in student_scores:
+#    print(student)
+#
+#print("----")
+#print(student_scores['Harry'])
 # print(student_scores[Harry])
 
 
@@ -134,46 +134,46 @@ print(student_scores['Harry'])
 ############ Secret auction ##############
 
 
-# import os
-# clear = lambda: os.system('cls')
+ import os
+ clear = lambda: os.system('cls')
 
-# #HINT: You can call clear() to clear the output in the console.
-# import random
-# random_lot = random.randint(3000, 4500)
-#
-# print("Welcome to the secret auction!")
-# print(f"The lot #{random_lot} is about a street art by Banksy located in London known as:\n 'Girls with a red balloon!'")
-#
-# lot_bids = []
-#
-# new_participant = True
-# while new_participant == True:
-#     name = input("Write your name: \n")
-#     bid_size = float(input("Write your bid: \n"))
-#
-#     new_bid = {'name': name, 'bid': bid_size}
-#     lot_bids.append(new_bid)
-#
-#     more_bids = input("Are there other participants? (Y of N)\n")
-#     if more_bids in ('Y','y'):
-#         print("\n" * 50)
-#         new_participant = True
-#     else:
-#         print("\n" * 50)
-#         new_participant = False
-#         break
-#
-#
-#
-# max_bid = 0
-# winner_name = None
-# for participant in lot_bids:
-#     if participant['bid'] > max_bid:
-#         max_bid = participant['bid']
-#         winner_name = participant['name']
-#
-#
-# print(f"The winner is {winner_name} with a bid of {max_bid}$.")
+ #HINT: You can call clear() to clear the output in the console.
+ import random
+ random_lot = random.randint(3000, 4500)
+
+ print("Welcome to the secret auction!")
+ print(f"The lot #{random_lot} is about a street art by Banksy located in London known as:\n 'Girls with a red balloon!'")
+
+ lot_bids = []
+
+ new_participant = True
+ while new_participant == True:
+     name = input("Write your name: \n")
+     bid_size = float(input("Write your bid: \n"))
+
+     new_bid = {'name': name, 'bid': bid_size}
+     lot_bids.append(new_bid)
+
+     more_bids = input("Are there other participants? (Y of N)\n")
+     if more_bids in ('Y','y'):
+         print("\n" * 50)
+         new_participant = True
+     else:
+        print("\n" * 50)
+         new_participant = False
+         break
+
+
+
+ max_bid = 0
+ winner_name = None
+ for participant in lot_bids:
+     if participant['bid'] > max_bid:
+         max_bid = participant['bid']
+         winner_name = participant['name']
+
+
+ print(f"The winner is {winner_name} with a bid of {max_bid}$.")
 
 
 
