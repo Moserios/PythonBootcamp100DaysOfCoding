@@ -43,7 +43,7 @@ while game_on:
         score.increase_score()
         snake.enlarge()
 
-    # collision detection with food
+    # collision detection with walls
     if snake.segments[0].xcor() > 290 or snake.segments[0].xcor() < -290 or snake.segments[0].ycor() > 290 or snake.segments[0].ycor() < -290:
         game_on = False
 
