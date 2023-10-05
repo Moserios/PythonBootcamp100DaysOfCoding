@@ -146,7 +146,7 @@ def count_down(amount):
 
     canvas.itemconfig(timer_text, text=f"{count_minutes}:{count_seconds}")
 
-    print(f"{count}, reps: {reps}, LBC: {long_breaks_count}, SBC: {short_breaks_count}, result: {result}")
+    # print(f"{count}, reps: {reps}, LBC: {long_breaks_count}, SBC: {short_breaks_count}, result: {result}")
 
     if reset == 1:
         reps = 0
@@ -182,7 +182,7 @@ def count_down(amount):
         bottom_count_lable.config(text=(f"{result}"))
         top_lable.config(text="Short break", fg=PINK)
     elif count > 0:
-        win.after(100, count_down, count -1)
+        win.after(1000, count_down, count -1)
 
 # ---------------------------- UI SETUP ------------------------------- #
 win = Tk()
