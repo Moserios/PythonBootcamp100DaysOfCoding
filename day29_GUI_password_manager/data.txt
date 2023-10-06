@@ -1,0 +1,6 @@
+
+gmail | moserturbo@gmail.com | 123
+yahoo | moserturbo@yahoo.com | 456
+mail.ru | moserturbo@mail.ru | 789
+google | moserturbo@gmail.com | 123
+azon | qwe@123 | 123
