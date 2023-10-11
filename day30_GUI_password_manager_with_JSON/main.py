@@ -95,11 +95,11 @@ def add_data():
 # ---------------------------- UI SETUP ------------------------------- #
 win = Tk()
 win.title("Password manager")
-win.config(padx=50, pady=50, bg="white")
+win.config(padx=40, pady=40, bg="white")
 
-canvas = Canvas(width=200, height=200, bg="white", highlightthickness=5, highlightbackground="black")
+canvas = Canvas(width=200, height=200, bg="white", highlightthickness=5, highlightbackground="white")
 logo = PhotoImage(file="logo.png")
-canvas.create_image(100,100, image=logo)
+canvas.create_image(110,100, image=logo)
 canvas.grid(column=1, row=1)
 
 ## LABELS
@@ -137,7 +137,7 @@ search_button.grid(column=2, row=2)
 gen_button = Button(text="Generate Password", font=FONT, command=generate_password)
 gen_button.grid(column=2, row=4)
 
-add_button = Button(text="Add", font=FONT, width=36, command=add_data)
+add_button = Button(text="Add", font=FONT, width=51, command=add_data)
 add_button.grid(column=1, row=5, columnspan=2)
 
 

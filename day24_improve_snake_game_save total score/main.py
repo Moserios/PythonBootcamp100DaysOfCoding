@@ -3,7 +3,7 @@ from turtle import Turtle, Screen
 from snake import Snake
 from food import Food
 from scoreboard import Score
-
+import dis
 
 
 screen = Screen()
@@ -20,6 +20,7 @@ score = Score()
 def turn_off():
     screen.bye()
 
+# dis.dis(turn_off)
 
 screen.listen()
 screen.onkey(snake.right, "Right")
