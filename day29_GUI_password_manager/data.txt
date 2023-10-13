@@ -1,6 +1,6 @@
 
-gmail | moserturbo@gmail.com | 123
-yahoo | moserturbo@yahoo.com | 456
-mail.ru | moserturbo@mail.ru | 789
-google | moserturbo@gmail.com | 123
+gmail | @gmail.com | 123
+yahoo | @yahoo.com | 456
+mail.ru | @mail.ru | 789
+google | @gmail.com | 123
 azon | qwe@123 | 123

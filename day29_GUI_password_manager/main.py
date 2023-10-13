@@ -84,7 +84,7 @@ web_entry.focus()
 
 email_entry = Entry(width=52)
 email_entry.grid(column=1, row=3, columnspan=2)
-email_entry.insert(0, "moserturbo@gmail.com")
+email_entry.insert(0, "@gmail.com")
 
 pass_entry = Entry(width=34)
 pass_entry.grid(column=1, row=4)
