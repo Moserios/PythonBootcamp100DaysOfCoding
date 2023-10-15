@@ -3,8 +3,8 @@ import pandas
 import datetime as dt
 import random
 
-my_email = "sergemoseratti@gmail.com"
-my_password = "ecre vjik cskb nswd"
+my_email = "serge@gmail.com"
+my_password = "ecre vjik cskb nswe"
 
 def send_congratulation(recipient_email, birthday_boy_name, letter_text):
     with smtplib.SMTP("smtp.gmail.com", 587) as connection:
