@@ -2,7 +2,7 @@ import requests
 from notification_manager import *
 import datetime as dt
 
-FLIGHT_API_KEY = "Nf8NjB-mm7BYSt-i0sifBsBnCGJsTRhT-2"
+FLIGHT_API_KEY = "Nf8NjB-mm7BYSt-i0sifBsBnCGJsTRhT"
 FLIGHT_LOCATIONS_URL = "https://api.tequila.kiwi.com/locations/query"
 FLIGHTS_SEARCH_URL = "https://api.tequila.kiwi.com/v2/search"
 

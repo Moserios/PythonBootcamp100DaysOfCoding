@@ -1,8 +1,8 @@
 import smtplib
 
-my_email = "sergem@gmail.com"
-recipient_email = "moser@gmail.com"
-my_password = "ecre vjik cskb nswe"
+my_email = "sergemoseratti@gmail.com"
+recipient_email = "moserturbo@gmail.com"
+my_password = "ecre vjik cskb nswd"
 class NotificationManager():
     def __init__(self):
         pass
