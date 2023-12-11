@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="/docs/5.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <title>It works</title>
+</head>
+<body>
+<!--/login-->
+<form action="{{ url_for('receive_data') }}" method="post">
+  <div class="input-group mb-3">
+    <span class="input-group-text" id="basic-addon1">Name:</span>
+    <input type="text" name="name" class="form-control" placeholder="Name" aria-label="Name" aria-describedby="basic-addon1">
+    <span class="input-group-text" id="basic-addon2">Password</span>
+    <input type="text" name="pswd" class="form-control" placeholder="Password" aria-label="password" aria-describedby="basic-addon2">
+    <button class="btn btn-primary w-100 py-2" type="submit">Ok</button>
+  </div>
+</form>
+
+</body>
+</html>
